@@ -1,0 +1,4 @@
+C:\cmake\bin\cmake.exe -E remove -f CMakeFiles\blas.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\blas.dir/objects.a @CMakeFiles\blas.dir\objects1.rsp
+C:\MinGW\bin\gfortran.exe  -O2 -DNDEBUG -O2  -shared -o ..\..\bin\libblas.dll -Wl,--out-implib,..\..\lib\libblas.dll.a -Wl,--major-image-version,3,--minor-image-version,8 -Wl,--whole-archive CMakeFiles\blas.dir/objects.a -Wl,--no-whole-archive  -Wl,--output-def,blas.def
+C:\cmake\bin\cmake.exe -Dlib="C:/Users/mohamed/Desktop/New folder (6)/CMakeFiles/CMakeGNUtoMS_lib.bat" -Ddef=blas.def -Ddll=..\..\bin\libblas.dll -Dimp=..\..\lib\libblas.dll.a -P "C:/cmake/share/cmake-3.13/Modules/Platform/GNUtoMS_lib.cmake"

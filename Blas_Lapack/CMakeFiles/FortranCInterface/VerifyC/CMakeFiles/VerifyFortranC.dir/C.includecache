@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/cmake/share/cmake-3.13/Modules/FortranCInterface/Verify/VerifyC.c
+stdio.h
+-
+
+C:/cmake/share/cmake-3.13/Modules/FortranCInterface/Verify/main.c
+VerifyFortran.h
+C:/cmake/share/cmake-3.13/Modules/FortranCInterface/Verify/VerifyFortran.h
+
+VerifyFortran.h
+
